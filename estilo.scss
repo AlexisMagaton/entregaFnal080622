@@ -1,0 +1,44 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainContacto{ height: 800px;}
+.formContacto{height: 700px;}
+.altItem{height: 450px;}
+
+.tituPrinc{font-family: 'Pacifico', cursive; font-size: 5em; 
+                    
+}
+
+.tituHoja{ font-family: 'Pacifico', cursive; font-size: 2em;
+    color: black;}
+    
+    
+ 
+
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+  
+  
+    body{background: linear-gradient(white, rgb(61, 57, 57));}
+
+.rot:hover{ transform: scale(1.5);
+  }
+   
+   
+   
+ .tituHoja{ animation-name: resaltar;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;}
+
+
+ @keyframes resaltar {
+     0%{text-shadow: 0;}
+     50%{text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+        color: white;}
+     100%{text-shadow: 0;}
+     
+ }           
+
+
